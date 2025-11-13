@@ -47,3 +47,8 @@ else:
 
 # practice problem :
 # where a student must check if their score is greater than or equal to 60 to pass a test.# The password must be at least 8 characters long and contain at least one digit.password = "mypassword1"
+password = input("enter your password: ")
+if len(password) >= 8 and any(char. isdigit() for char in password):
+    print("password is valid, ")
+else: 
+    print("password is invalid.")
